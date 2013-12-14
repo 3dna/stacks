@@ -1,5 +1,3 @@
-require_relative 'backend'
-
 class Stacks::Backends::KeyValueBackend
 
   include Stacks::Backends::Backend

@@ -1,5 +1,4 @@
 require "spec_helper"
-require 'digest/sha2'
 
 describe Stacks::Items::MethodCall do
 

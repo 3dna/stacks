@@ -1,6 +1,3 @@
-require "active_record"
-require "set"
-
 class Stacks::ModelExtensions
 
   def self.watched_models

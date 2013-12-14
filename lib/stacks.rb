@@ -1,3 +1,7 @@
+require 'digest/sha2'
+require 'active_record'
+require 'set'
+
 class Stacks
 
   class << self
@@ -10,8 +14,8 @@ class Stacks
                   :restrict)
   end
 
-  self.redis_prefix = "stacks"
-  self.key_separator = ":"
+  self.redis_prefix = 'stacks'
+  self.key_separator = ':'
 
   module Backends; end
   module Items; end

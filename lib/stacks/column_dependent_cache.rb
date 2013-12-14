@@ -1,6 +1,3 @@
-require "active_record"
-require "set"
-
 class Stacks::ColumnDependentCache
 
   extend Stacks::Cache

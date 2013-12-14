@@ -1,5 +1,3 @@
-require_relative 'backend'
-
 class Stacks::Backends::NamespacedBackend
 
   include Stacks::Backends::Backend

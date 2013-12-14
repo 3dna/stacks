@@ -1,5 +1,3 @@
-require 'digest/sha2'
-
 class Stacks::Items::MethodCall
 
   def initialize(object, method, args)
